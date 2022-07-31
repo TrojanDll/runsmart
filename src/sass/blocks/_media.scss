@@ -161,4 +161,12 @@
             width: 100%;
         }
     }
+    .consultation {
+        .title_left {
+            line-height: 30px;
+        }
+        &__descr {
+            font-size: 18px;
+        }
+    }
 }
