@@ -1,0 +1,43 @@
+.reviews {
+    padding-bottom: 71px;
+    &__wrapper {
+        margin-top: 70px;
+    }
+    .review-block {
+        display: flex;
+        &__text {
+            width: 650px;
+        }
+        img {
+            width: 169px;
+            height: 169px;
+            margin-right: 62px;
+        }
+        &__name {
+            font-size: 18px;
+            font-weight: 700;
+            text-align: left;
+            color: #0d0d0d;
+        }
+        &__status {
+            margin-top: 5px;
+            font-size: 14px;
+            font-weight: 300;
+            text-align: left;
+            color: #646464;
+        }
+        &__descr {
+            margin-top: 20px;
+            font-size: 16px;
+            line-height: 18px;
+            font-weight: 500;
+            text-align: left;
+            color: #0d0d0d;
+        }
+        
+    }
+    hr {
+        margin: 50px auto;
+    }
+
+}
