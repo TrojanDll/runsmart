@@ -31,7 +31,10 @@
         text-align: center;
         color: #0d0d0d;
         a {
-            color: #f00
+            color: #f00;
+            &:hover {
+                text-decoration: none;
+            }
         }
     }
 }

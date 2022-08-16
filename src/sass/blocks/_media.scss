@@ -197,6 +197,17 @@
             margin-bottom: 30px;
         }
     }
+    .overlay {
+        .modal {
+            width: 345px;
+            .feed-form {
+                width: 100%;
+                input {
+                    width: 100%;
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 767px) {
@@ -347,6 +358,8 @@
             width: 480px;
         }
     }
+    
+    
 }
 
 @media (max-width: 575px) {
@@ -447,6 +460,37 @@
             font-size: 14px;
             line-height: 14px;
             margin-bottom: 20px;
+        }
+    }
+    .overlay {
+        .modal {
+            min-height: 345px;
+            padding: 25px 30px 25px 30px;
+            width: 240px;
+            &__close {
+                right: -28px;
+            }
+            &__subtitle {
+                font-size: 16px;
+            }
+            &__descr {
+                font-size: 12px;
+            }
+            .feed-form {
+                input {
+                    height: 43px;
+                }
+            }
+            .button_submit {
+                height: 48px;
+            }
+            &__consultation {
+                .button_submit {
+                    font-size: 13px;
+                    line-height: 15px;
+                }
+            }
+            
         }
     }
 }
